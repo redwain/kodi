@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.redwain" name="Kodi Redwain Repository" version="0.0.1" provider-name="redwain">
-	<extension point="xbmc.addon.repository" name="Redwain Repository">
+<addon id="repository.redwain" name="Redwain Repository" version="0.0.2" provider-name="redwain">
+	<extension point="xbmc.addon.repository" name="Redwain Leia Repository">
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/redwain/kodi.repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/redwain/kodi.repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/redwain/kodi.repo/master/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/redwain/kodi.repo/leia/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/redwain/kodi.repo/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/redwain/kodi.repo/leia/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Kodi Redwain Repository</summary>
-		<description>Redwain extensions and skins for Kodi</description>
+		<summary>Redwain Leia Repository</summary>
+		<description>Redwain extensions and skins for Kodi (Leia)</description>
 		<platform>all</platform>
 	</extension>
 </addon>
